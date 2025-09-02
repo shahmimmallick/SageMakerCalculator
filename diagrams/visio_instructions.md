@@ -59,7 +59,7 @@ Bottom Layer: [Client Apps] → [REST API] → [Python SDK]
 - S3 Upload Process
 
 #### Deployment Section:
-- SKLearnModel Creation
+- PyTorchModel Creation
 - Endpoint Configuration
 - Instance Provisioning
 
@@ -92,14 +92,14 @@ Bottom Layer: [Client Apps] → [REST API] → [Python SDK]
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    AWS Cloud Environment                    │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────┐ │
-│  │ SageMaker   │  │     S3      │  │    SageMaker        │ │
-│  │   Studio    │→ │   Storage   │→ │    Endpoint         │ │
-│  └─────────────┘  └─────────────┘  └─────────────────────┘ │
+│  ┌─────────────┐  ┌─────────────┐  ┌───────────────── ────┐ │
+│  │ SageMaker   │  │     S3      │  │    SageMaker         │ │
+│  │   Studio    │→ │   Storage   │→ │    Endpoint          │ │
+│  └─────────────┘  └─────────────┘  └──────────────────── ─┘ │
 │                                              ↓              │
-│  ┌─────────────────────────────────────────────────────────┐ │
-│  │              Client Applications                        │ │
-│  └─────────────────────────────────────────────────────────┘ │
+│  ┌────────────────────────────────────────────────────────┐ │
+│  │              Client Applications                       │ │
+│  └────────────────────────────────────────────────────────┘ │
 └─────────────────────────────────────────────────────────────┘
 ```
 
