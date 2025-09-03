@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf202459-3a9b-41b0-9511-36867ce0d91b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/diagrams/visio_instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/diagrams/visio_instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/run_calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +36,11 @@
     "last_opened_file_path": "/Users/shahmimmallick/Documents/MyPythonProjects/GitHubRepos/SageMakerCalculator"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

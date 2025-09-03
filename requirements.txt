@@ -1,3 +1,4 @@
+inference
 boto3>=1.26.0
 sagemaker>=2.100.0
 numpy>=1.21.0
